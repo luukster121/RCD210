@@ -5,9 +5,9 @@ import time
 
 # === Spotify instellingen ===
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="JOUW_CLIENT_ID",
-    client_secret="JOUW_CLIENT_SECRET",
-    redirect_uri="http://localhost:8080",
+    client_id="1fa790663be74563bf648f61f9baf4f7",
+    client_secret="0c3f8e9fb80a4bca9e0ce00eddb6fdc0",
+    redirect_uri="http://127.0.0.1:8080",
     scope="user-modify-playback-state user-read-playback-state"
 ))
 
