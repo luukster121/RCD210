@@ -19,7 +19,7 @@ time.sleep(2)  # even wachten tot Arduino reset voltooid is
 volume = 50
 sp.volume(volume)
 
-print("Spotify controller gestart...")
+print("Spotify controller gestrart...")
 
 while True:
     line = ser.readline().decode().strip()
